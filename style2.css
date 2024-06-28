@@ -1,0 +1,310 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+    background-color: #303030;
+    color: white;
+}
+
+nav {
+
+    text-align: center;
+    background-color: #454545;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+nav li {
+
+    display:inline;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+
+    margin-right: 0;
+}
+
+nav li a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav button {
+
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 10px;
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+}
+
+nav button:hover {
+    background-color: #b30003;
+}
+
+.content {
+
+    align-items: center;
+    padding: 50px;
+}
+
+.content img {
+
+    height: auto;
+    width: 350px;
+    float: right;
+}
+
+.content h1 {
+
+    text-align: left;
+}
+
+.content p {
+
+    padding-right: 20px;
+    text-align: left;
+}
+
+.homebuttons {
+
+    text-align: left;
+    padding-left: 40px;
+}
+
+.homebuttons a {
+
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 100px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.homebuttons a:hover {
+    
+    background-color: #b30003;
+}
+
+
+.hobbytitle {
+
+    padding-left: 45px;
+    padding-top: 100px;
+}
+
+
+.photocontent img {
+
+    float: left;
+    padding-top: 20px;
+    height: 300px;
+    width: 300px;
+    padding-left: 45px;
+    padding-bottom: 40px;
+}
+
+.phototext {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.phototext h1 {
+
+    line-height: 1.2;
+    white-space: normal;
+    padding-left: 20px;
+}
+
+.phototext p {
+
+    white-space: normal;
+    padding-left: 20px;
+    padding-right: 50px;   
+    color: white;
+    padding-bottom: 20px;
+}
+
+.contentproject {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.contentproject img {
+
+    margin-right: 20px;
+    height: auto;
+    width: 275px;
+    padding-left: 250px;
+    padding-bottom: 15px;
+}
+
+.projecttext {
+
+    text-align: left;
+}
+
+.projecttext h1 {
+
+    white-space: normal;
+    padding-left: 40px;
+}
+
+.projecttext p {
+
+    color: white;
+    white-space: normal;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 250px;  
+}
+
+.projectbutton {
+
+    text-align: left;
+    padding-left: 30px;
+}
+
+.projectbutton a {
+
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 100px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.projectbutton a:hover {
+    
+    background-color: #b30003; 
+}
+
+.resumecontent {
+
+    float: left;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.skilltext {
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.skilltext h1 {
+
+    padding-top: 50px;
+    vertical-align: middle;
+    line-height: 1.2;
+    white-space: normal;
+    padding-left: 40px;
+}
+
+.skilltext p {
+
+    text-align: left;
+    color: white;
+    white-space: normal;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 250px;   
+}
+
+.servicecontent {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.servicecontent img {
+
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    height: auto;
+    width: 275px;
+    object-fit: cover;
+    padding-left: 250px;
+    padding-bottom: 10px;
+}
+
+.servicetext {
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.servicetext h1 {
+
+    display: block;
+    vertical-align: middle;
+    line-height: 1.2;
+    white-space: normal;
+    padding-left: 40px;
+}
+
+.servicetext p {
+
+    text-align: left;
+    color: white;
+    white-space: normal;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 250px;   
+}
+
+.servicebutton {
+
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.servicebutton a {
+
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 100px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.servicebutton a:hover {
+    
+    background-color: #b30003;
+}

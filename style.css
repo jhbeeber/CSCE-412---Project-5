@@ -1,0 +1,308 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+}
+
+nav {
+
+    text-align: center;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+nav li {
+
+    display:inline;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+
+    margin-right: 0;
+}
+
+nav li a {
+
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav button {
+
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 10px;
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+}
+
+nav button:hover {
+    background-color: #6d00fc;
+}
+
+body {
+
+    background-color: #c0eeff;
+}
+
+.content {
+
+    text-align: center;
+    margin-top: 20px;
+    padding: 35px;
+}
+
+.content img {
+
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    height: auto;
+    width: 275px;
+    border-radius: 50%;
+}
+
+.content h1 {
+
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 35px;
+    padding-left: 40px;
+}
+
+.content p {
+
+    padding-top: 35px;
+    text-align: center;
+    color: rgb(57, 57, 57);
+    white-space: normal;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.homebuttons {
+
+    text-align: center;
+}
+
+.homebuttons a {
+
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.homebuttons a:hover {
+    background-color: #6d00fc;
+}
+
+.hobbytitle {
+
+    padding-top: 35px;
+    text-align: center;
+}
+
+.photocontent {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 35px;
+    position: relative;
+    text-align: center;
+}
+
+.photocontent img {
+
+    display: block;
+    height: 250px;
+    width: 250px;
+    transition: opacity 0.5s;
+    border-radius: 25%;
+}
+
+.photocontent .phototext {
+
+    gap: 20px;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+    width: auto;
+    background-color: rgb(204, 0, 143);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photocontent:hover .phototext {
+
+    opacity: 1;
+}
+
+.contentproject {
+
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+}
+
+.contentproject img {
+
+    display: block;
+    height: 250px;
+    width: 250px;
+    transition: opacity 0.5s;
+    border-radius: 25%;
+}
+
+.contentproject .projecttext {
+
+    gap: 20px;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: auto;
+    background-color: rgb(204, 0, 143);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contentproject .projecttext{
+
+    text-align: center;
+    padding: 20px;
+}
+
+.contentproject:hover .projecttext {
+
+    opacity: 1;
+}
+
+.projectbutton a {
+
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.projectbutton a:hover {
+    background-color: #6d00fc;
+}
+
+.resumecontent {
+
+    text-align: center;
+    margin-top: 35px;
+    padding: 20px;
+}
+
+.skilltext {
+
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+
+.servicecontent {
+
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+}
+
+.servicecontent img {
+
+    display: block;
+    height: 250px;
+    width: 250px;
+    transition: opacity 0.5s;
+    border-radius: 25%;
+}
+
+.servicecontent .servicetext {
+
+    gap: 20px;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: auto;
+    background-color: rgb(204, 0, 143);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.servicecontent .servicetext{
+
+    text-align: center;
+    padding: 20px;
+}
+
+.servicecontent:hover .servicetext {
+
+    opacity: 1;
+}
+
+.servicebutton a {
+
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.servicebutton a:hover {
+    background-color: #6d00fc;
+}
